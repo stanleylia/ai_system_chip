@@ -1,0 +1,23 @@
+
+DNNC Kernel topology "tiny_yolo_kernel_graph.jpg" for network "tiny_yolo"
+DNNC kernel list info for network "tiny_yolo"
+                               Kernel ID : Name
+                                       0 : tiny_yolo
+
+                             Kernel Name : tiny_yolo
+--------------------------------------------------------------------------------
+                             Kernel Type : DPUKernel
+                               Code Size : 0.16MB
+                              Param Size : 8.44MB
+                           Workload MACs : 5564.96MOPS
+                         IO Memory Space : 1.17MB
+                              Mean Value : 0, 0, 0, 
+                              Node Count : 14
+                            Tensor Count : 16
+                    Input Node(s)(H*W*C)
+                 conv2d_1_convolution(0) : 416*416*3
+                   Output Node(s)(H*W*C)
+                conv2d_10_convolution(0) : 13*13*255
+                conv2d_13_convolution(0) : 26*26*255
+
+
